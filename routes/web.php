@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homepage');
+    $array_tmp = config('data');
+    $data = [
+        'fumetti' => $array_tmp,
+    ];
+    return view('homepage', $data);
 })->name('home');
 Route::get('/movies', function () {
     return view('movies');

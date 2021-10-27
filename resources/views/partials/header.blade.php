@@ -1,5 +1,5 @@
 <header>
-    <h1>Sono l'header</h1>
+    <h1>SONO L'HEADER</h1>
     <ul>
         <li><a href="{{route('home')}}">Comics</a></li>
         <li><a href="{{route('film')}}">Movies</a></li>
