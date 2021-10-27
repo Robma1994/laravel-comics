@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('content-main')
+@section('content-main-homepage')
     <main>
-        <h2>sono il main</h2>
+        <h2>sono il main della homepage</h2>
     </main>
 @endsection

@@ -9,7 +9,9 @@
 <body>
     @include('partials.header')
     <main>
-        @yield('content-main')
+        @yield('content-main-homepage')
+        @yield('content-main-movies')
+        @yield('content-main-tv')
     </main>
     @include('partials.footer')
 </body>
